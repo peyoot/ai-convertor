@@ -11,7 +11,7 @@ git clone https://github.com/peyoot/ai-convertor
 cd ai-convertor
 python3 -m venv .venv
 source .venv/bin/activate
-pip install
+pip install -r requirements.txt
 
 #convert onnx model to TensorFlow
 python3 onnx_to_tf.py onnx/mymodel.onnx saved_tf/
